@@ -77,12 +77,6 @@ const DashboardSidebar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/dashboard/transactions" className={navLinkClasses}>
-                <Receipt className="h-5 w-5 mr-3" />
-                Transactions
-              </NavLink>
-            </li>
-            <li>
               <NavLink to="/dashboard/expenses" className={navLinkClasses}>
                 <PiggyBank className="h-5 w-5 mr-3" />
                 Expenses
